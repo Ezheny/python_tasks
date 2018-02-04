@@ -1,2 +1,2 @@
 def average(lst):
-    av = round((sum(lst)/len(lst)), 3)
+    return round((sum(lst)/len(lst)), 3)
