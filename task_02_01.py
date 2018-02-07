@@ -1,5 +1,5 @@
 def is_palindrome(s):
-    s = s.replace(' ', '').lower()
+    s = str(s).replace(' ', '').lower()
     i = 0
     j = len(s) - 1
     is_palindrom = True
@@ -12,3 +12,4 @@ def is_palindrome(s):
         print('YES')
     else:
         print('NO')
+
