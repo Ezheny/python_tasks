@@ -1,4 +1,4 @@
-with open(r'C:\Users\evgeniya\Documents\work_python\data.txt') as f:
+with open('data.txt') as f:
     numbers = f.read()
     n = int(input())
     p = int(input())

@@ -8,8 +8,5 @@ def is_palindrome(s):
             is_palindrom = False
         i += 1
         j -= 1
-    if is_palindrom:
-        print('YES')
-    else:
-        print('NO')
+
 
