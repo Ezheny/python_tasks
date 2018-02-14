@@ -8,5 +8,8 @@ def is_palindrome(s):
             is_palindrom = False
         i += 1
         j -= 1
+    return is_palindrom
+
+# print(is_palindrome(49094))
 
 
