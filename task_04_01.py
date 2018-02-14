@@ -12,9 +12,9 @@ with open('data.txt') as f:
         list2_pow_p.append(int(text_list[i])**p)
         i += 1
     file1 = open('out-1.txt', 'w')
-    file1.write(str(list1_del_n).replace(',', ' '))
+    file1.write(str(list1_del_n).replace(',', ' ').replace('[', '').replace(']', ''))
     file2 = open('out-2.txt', 'w')
-    file2.write(str(list2_pow_p).replace(',', ' '))
+    file2.write(str(list2_pow_p).replace(',', ' ').replace('[', '').replace(']', ''))
     file1.close()
     file2.close()
 
