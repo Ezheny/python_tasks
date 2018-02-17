@@ -13,10 +13,10 @@ def return_namedtuple(*name):
     return decorator
 
 
-@return_namedtuple('one', 'two')
-def func():
-    return 1, 2
-
-r = func()
-print(r.one)
-print(r.two)
+# @return_namedtuple('one', 'two')
+# def func():
+#     return 1, 2
+#
+# r = func()
+# print(r.one)
+# print(r.two)
