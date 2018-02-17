@@ -32,15 +32,15 @@ def login_required(func):
     return wrapper
 
 
-@login_required
-def f1():
-    print('Функция защищена паролем')
-
-
-@login_required
-def f2():
-    print('Эта функция тоже защищена паролем')
-
-
-f1()
-f2()
+# @login_required
+# def f1():
+#     print('Функция защищена паролем')
+#
+#
+# @login_required
+# def f2():
+#     print('Эта функция тоже защищена паролем')
+#
+#
+# f1()
+# f2()
