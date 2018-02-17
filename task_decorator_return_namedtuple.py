@@ -16,7 +16,6 @@ def return_namedtuple(*name):
 # @return_namedtuple('one', 'two')
 # def func():
 #     return 1, 2
-#
 # r = func()
 # print(r.one)
 # print(r.two)
