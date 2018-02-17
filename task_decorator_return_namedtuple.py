@@ -17,5 +17,6 @@ def return_namedtuple(*name):
 # def func():
 #     return 1, 2
 # r = func()
+
 # print(r.one)
 # print(r.two)
